@@ -44,28 +44,36 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="container">
+    <div className="mb-3">
       <form className="form">
+        <label className="form-label">Email</label>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="Email"
-        />
+          placeholder="email@example.com"
+          className="form-control"
+          />
+        <label className="form-label">Name</label>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="Name"
-        />
-        <input
+          placeholder="First Last"
+          className="form-control"
+          />
+        <label className="form-label">Message</label>
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          className="form-control"
+          rows="3"
         />
         <button type="button" onClick={handleFormSubmit}>
           Submit
@@ -76,6 +84,7 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+    </div>
     </div>
   );
 }
