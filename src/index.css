@@ -18,4 +18,5 @@ a img {
   object-fit: cover;
   object-position: top;
   transition: all 0.3s ease-in-out;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5)); */
 }

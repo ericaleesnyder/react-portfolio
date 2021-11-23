@@ -41,6 +41,7 @@ export default function Contact() {
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
 
   return (
