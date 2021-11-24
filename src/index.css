@@ -61,3 +61,13 @@ a img {
 .es-active {
   background-color: var(--rust);
 }
+
+.es-footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--feldgrau);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
