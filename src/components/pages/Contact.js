@@ -46,6 +46,7 @@ export default function Contact() {
 
   return (
     <div className="container">
+      <h2>Contact Me</h2>
     <div className="mb-3">
       <form className="form">
         <label className="form-label">Email</label>
@@ -76,10 +77,12 @@ export default function Contact() {
           className="form-control"
           rows="3"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <br></br>
+        <button type="button" onClick={handleFormSubmit} className="btn btn-primary">
           Submit
         </button>
       </form>
+      <br></br>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>

@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className="container">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>
         Hi! My name is Erica. My eclectic education and professional experience has brought me to full stack web development.
         I am currently located in San Diego, though I have lived in places as far from the California coast as Florence, Italy. 

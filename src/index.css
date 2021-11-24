@@ -1,3 +1,15 @@
+:root { 
+  --sienna: #3C1518;
+  --blood: #69140E;
+  --rust: #A44200;
+  --bronze: #D58936;
+  --feldgrau: #4A5859; 
+}
+
+h2 {
+  color: var(--sienna)
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--feldgrau)
 }
 
 code {
@@ -18,5 +31,33 @@ a img {
   object-fit: cover;
   object-position: top;
   transition: all 0.3s ease-in-out;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5)); */
+}
+
+.txt-white {
+  color:black;
+  background-color: #ffffffd3;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.txt-white-details {
+  color:black;
+  background-color: #ffffffd3;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+
+.nav-style {
+  background-color: var(--feldgrau);
+  height: 6rem;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+.es-inactive {
+  color: white;
+}
+
+.es-active {
+  background-color: var(--rust);
 }
