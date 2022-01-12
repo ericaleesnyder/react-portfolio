@@ -17,7 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--feldgrau)
+  color: var(--feldgrau);
 }
 
 code {
@@ -63,11 +63,15 @@ a img {
 }
 
 .es-footer {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem;
   background-color: var(--feldgrau);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.work {
+  margin-bottom: 100px;
 }

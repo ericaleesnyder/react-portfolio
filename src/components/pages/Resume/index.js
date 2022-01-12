@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './bootcamp_portfolio.pdf'
+import resume from './erica_snyder_resume_2021.pdf'
 
 export default function Resume() {
   return (
