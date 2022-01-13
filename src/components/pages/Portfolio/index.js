@@ -11,9 +11,9 @@ export default function Portfolio() {
   return (
     <Container className="work">
       <h2>My Work</h2>
-      <Row className="row-cols-1 row-cols-md-2 g-4">
-        <Col>
-          <Card>
+      <Row>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={abcode} alt="ABCode Home Page" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
             <Card.ImgOverlay>
               <Card.Header as="h3" className="txt-white">ABCode</Card.Header>
@@ -46,8 +46,8 @@ export default function Portfolio() {
           </Card>
         </Col>
         <br></br>
-        <Col>
-          <Card>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={start} alt="myTripJournal start page" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
             <Card.ImgOverlay>
               <Card.Header as="h3" className="txt-white">myTripJournal</Card.Header>
@@ -81,8 +81,8 @@ export default function Portfolio() {
           </Card>
         </Col>
         <br></br>
-        <Col>
-          <Card>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={cooking} alt="rapid recipes food result" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
             <Card.ImgOverlay>
               <Card.Header as="h3" className="txt-white">Rapid Recipes</Card.Header>
@@ -114,8 +114,8 @@ export default function Portfolio() {
           </Card>
         </Col>
         <br></br>
-        <Col>
-          <Card>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={weather} alt="weather" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
               <Card.ImgOverlay>
                 <Card.Header as="h3" className="txt-white">Weather Dashboard</Card.Header>
@@ -149,8 +149,8 @@ export default function Portfolio() {
             </Card>
         </Col>
         <br></br>
-        <Col>
-          <Card>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={note} alt="note taker start page" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
             <Card.ImgOverlay>
               <Card.Header as="h3" className="txt-white">Note Taker</Card.Header>
@@ -184,8 +184,8 @@ export default function Portfolio() {
           </Card>
         </Col>
         <br></br>
-        <Col>
-          <Card>
+        <Col lg="6">
+          <Card style={{marginBottom:"1rem"}}>
             <Card.Img src={question} alt="code quiz question page" style={{height: "250px", objectFit: "cover", objectPosition: "top"}}/>
             <Card.ImgOverlay>
               <Card.Header as="h3" className="txt-white">Code Quiz</Card.Header>

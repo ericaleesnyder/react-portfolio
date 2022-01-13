@@ -21,7 +21,7 @@ export default function Resume() {
       <p>
         Click below to download my resume.
         <br></br>
-        <a href={resume} className="btn btn-primary"download>Resume</a>
+        <a href={resume} className="btn btn-primary" download>Resume</a>
       </p>
     </div>
   );
