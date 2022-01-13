@@ -46,19 +46,28 @@ code {
 
 .nav-style {
   background-color: white;
-  height: 6rem;
+  min-height: 6rem;
   margin: 0 0 1rem 0;
+  color: black;
+  justify-content:center;
 }
 
-.nav-pills .nav-link:hover {
-  color: var(--primary)
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
 
-.nav-pills .nav-link.active {
-  background-color: var(--primary)
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary);
+  border-radius: 10px;
 }
 
-.nav-pills .nav-link.active:hover {
+.navbar-light .navbar-nav .nav-link.active {
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
   background-color: var(--secondary);
   color: white;
 }

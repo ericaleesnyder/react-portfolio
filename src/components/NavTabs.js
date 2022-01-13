@@ -1,54 +1,22 @@
-import React from 'react';
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar nav-style">
-      <div className="container-fluid">
-        <div className="navbar-brand" style={{fontSize: "2rem", fontWeight: "bold"}}>Erica Snyder</div>
-        <ul className="nav nav-pills">
-          <li className="nav-item">
-            <a
-              href="#about"
-              onClick={() => handlePageChange('About')}
-              
-              className={currentPage === 'About' ? 'nav-link active' : 'nav-link es-inactive'}
-              >
-              About Me
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-              
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link es-inactive'}
-              >
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link es-inactive'}
-              >
-              Resume
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#contact"
-              
-              onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link es-inactive'}
-              >
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar expand="lg" className="nav-style">
+      <Container style={{alignItems:"center"}}>
+        <Navbar.Brand style={{fontSize:"2rem", fontWeight:"500", color:"var(--primary)"}}>Erica Snyder</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav className="">
+            <Nav.Link href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link es-inactive'}>About Me</Nav.Link>
+            <Nav.Link href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link es-inactive'}>Portfolio</Nav.Link>
+            <Nav.Link href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link es-inactive'}>Resume</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link es-inactive'}>Contact Me</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
