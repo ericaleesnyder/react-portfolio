@@ -1,17 +1,18 @@
 import React from 'react';
+import { Container, Row, Card, Col } from 'react-bootstrap';
 import headshot from './es_headshot.jpg'
 
 export default function About() {
   return (
-    <div className="container">
+    <Container>
       <h2>About Me</h2>
-      <div className='row'>
-      <div className='col-4'>
-        <div className='card'>
-          <img src={headshot} alt="erica snyder headshot"/>
-        </div>
-      </div>
-      <div className='col'>
+      <Row>
+      <Col xs="4">
+        <Card>
+          <Card.Img src={headshot} alt="erica snyder headshot"/>
+        </Card>
+      </Col>
+      <Col>
         <p>
           Hi! My name is Erica. My eclectic education and professional experience has brought me to full stack web development.
           I am currently located in San Diego, though I have lived in places as far from the California coast as Florence, Italy. 
@@ -21,8 +22,8 @@ export default function About() {
         <p>
           When not attempting to satisfy my insatiable appetite for new and exciting skills, I can be found playing (endless) games of fetch with my dog Peanut Butter or enjoying the impecable San Diego coastline. 
         </p>
-      </div>
-      </div>
-    </div>
+      </Col>
+      </Row>
+    </Container>
   );
 }
