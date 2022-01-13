@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ceb93400.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5f029e30.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5f029e30.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.d8837ced.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.35affeab.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.35affeab.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.256c6898.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.256c6898.js.map",
     "static/css/2.383c0125.chunk.css": "/react-portfolio/static/css/2.383c0125.chunk.css",
@@ -12,12 +12,13 @@
     "static/js/3.91b5d926.chunk.js.map": "/react-portfolio/static/js/3.91b5d926.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.383c0125.chunk.css.map": "/react-portfolio/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.ceb93400.chunk.css.map": "/react-portfolio/static/css/main.ceb93400.chunk.css.map",
+    "static/css/main.d8837ced.chunk.css.map": "/react-portfolio/static/css/main.d8837ced.chunk.css.map",
     "static/js/2.733d2584.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.733d2584.chunk.js.LICENSE.txt",
-    "static/media/bootcamp_portfolio.f43b0d04.pdf": "/react-portfolio/static/media/bootcamp_portfolio.f43b0d04.pdf",
     "static/media/cooking-min.e0c485ff.jpg": "/react-portfolio/static/media/cooking-min.e0c485ff.jpg",
     "static/media/dashboard.cba20713.png": "/react-portfolio/static/media/dashboard.cba20713.png",
     "static/media/digital-marketing-meeting-min.6cc0be3e.jpg": "/react-portfolio/static/media/digital-marketing-meeting-min.6cc0be3e.jpg",
+    "static/media/erica_snyder_resume_2021.1932caa8.pdf": "/react-portfolio/static/media/erica_snyder_resume_2021.1932caa8.pdf",
+    "static/media/es_headshot.a66a0a0a.jpg": "/react-portfolio/static/media/es_headshot.a66a0a0a.jpg",
     "static/media/note-taker.b928454c.png": "/react-portfolio/static/media/note-taker.b928454c.png",
     "static/media/start-page.png-min.e9ac00c4.png": "/react-portfolio/static/media/start-page.png-min.e9ac00c4.png",
     "static/media/weather-min.c0ba8581.jpg": "/react-portfolio/static/media/weather-min.c0ba8581.jpg"
@@ -26,7 +27,7 @@
     "static/js/runtime-main.256c6898.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.733d2584.chunk.js",
-    "static/css/main.ceb93400.chunk.css",
-    "static/js/main.5f029e30.chunk.js"
+    "static/css/main.d8837ced.chunk.css",
+    "static/js/main.35affeab.chunk.js"
   ]
 }
