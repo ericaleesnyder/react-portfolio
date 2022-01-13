@@ -4,14 +4,14 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar nav-style">
       <div className="container-fluid">
-        <div className="navbar-brand">Erica Snyder</div>
+        <div className="navbar-brand" style={{fontSize: "2rem", fontWeight: "bold"}}>Erica Snyder</div>
         <ul className="nav nav-pills">
           <li className="nav-item">
             <a
               href="#about"
               onClick={() => handlePageChange('About')}
               
-              className={currentPage === 'About' ? 'nav-link active es-active' : 'nav-link es-inactive'}
+              className={currentPage === 'About' ? 'nav-link active' : 'nav-link es-inactive'}
               >
               About Me
             </a>
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
               
-              className={currentPage === 'Portfolio' ? 'nav-link active es-active' : 'nav-link es-inactive'}
+              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link es-inactive'}
               >
               Portfolio
             </a>
@@ -31,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#resume"
               onClick={() => handlePageChange('Resume')}
               
-              className={currentPage === 'Resume' ? 'nav-link active es-active' : 'nav-link es-inactive'}
+              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link es-inactive'}
               >
               Resume
             </a>
@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#contact"
               
               onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active es-active' : 'nav-link es-inactive'}
+              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link es-inactive'}
               >
               Contact
             </a>

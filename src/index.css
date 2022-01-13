@@ -1,13 +1,15 @@
 :root { 
-  --sienna: #3C1518;
-  --blood: #69140E;
-  --rust: #A44200;
-  --bronze: #D58936;
-  --feldgrau: #4A5859; 
+  --primary: #B197B1;
+  --secondary: #97B197;
+  --tertiary: #E0E8E0;
 }
 
-h2 {
-  color: var(--sienna)
+a img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -17,7 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--feldgrau);
+  background-color: var(--tertiary);
 }
 
 code {
@@ -25,12 +27,47 @@ code {
     monospace;
 }
 
-a img {
+.btn {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.es-inactive {
+  color: black;
+}
+
+.es-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  object-position: top;
-  transition: all 0.3s ease-in-out;
+}
+
+.nav-style {
+  background-color: white;
+  height: 6rem;
+  margin: 0 0 1rem 0;
+}
+
+.nav-pills .nav-link:hover {
+  color: var(--primary)
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--primary)
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: var(--secondary);
+  color: white;
 }
 
 .txt-white {
@@ -45,31 +82,6 @@ a img {
   background-color: #ffffffd3;
   padding: 0.5rem 1rem;
   border-radius: 2px;
-}
-
-.nav-style {
-  background-color: var(--feldgrau);
-  height: 6rem;
-  margin: 0 0 1rem 0;
-  color: white;
-}
-
-.es-inactive {
-  color: white;
-}
-
-.es-active {
-  background-color: var(--rust);
-}
-
-.es-footer {
-  margin-top: 2rem;
-  padding: 1rem;
-  background-color: var(--feldgrau);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 .work {
