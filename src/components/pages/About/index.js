@@ -20,7 +20,7 @@ export default function About() {
           After working in the architecture and design industry and identifying my troubleshooting, problem solving, and design strengths, I have now started on my new journey as a web developer.
         </p>
         <p>
-          When not attempting to satisfy my insatiable appetite for new and exciting skills, I can be found playing (endless) games of fetch with my dog Peanut Butter or enjoying the impecable San Diego coastline. 
+          When not attempting to satisfy my insatiable appetite for new and exciting skills, I can be found playing (endless) games of fetch with my dog Peanut Butter or enjoying the impeccable San Diego coastline. 
         </p>
       </Col>
       </Row>
