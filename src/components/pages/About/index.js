@@ -4,10 +4,10 @@ import headshot from './es_headshot.jpg'
 
 export default function About() {
   return (
-    <Container>
+    <Container style={{marginBottom:"8rem"}}>
       <h2>About Me</h2>
       <Row>
-      <Col xs="4">
+      <Col md="4">
         <Card>
           <Card.Img src={headshot} alt="erica snyder headshot"/>
         </Card>

@@ -9,7 +9,7 @@ import question from './question-page.png'
 
 export default function Portfolio() {
   return (
-    <Container className="work">
+    <Container className="work" style={{marginBottom:"8rem"}}>
       <h2>My Work</h2>
       <Row>
         <Col lg="6">
