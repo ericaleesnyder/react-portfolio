@@ -8,19 +8,24 @@ export default function About() {
       <h2>About Me</h2>
       <Row>
       <Col md="4">
-        <Card>
+        <Card style={{marginBottom:"1rem"}}>
           <Card.Img src={headshot} alt="erica snyder headshot"/>
         </Card>
       </Col>
       <Col>
         <p>
-          Hi! My name is Erica. My eclectic education and professional experience has brought me to full stack web development.
-          I am currently located in San Diego, though I have lived in places as far from the California coast as Florence, Italy. 
-          I learned to nurture my creative eye and combine big ideas with intuitive, experiential frameworks during my time studying Architecture at Cal Poly San Luis Obispo.  
-          After working in the architecture and design industry and identifying my troubleshooting, problem solving, and design strengths, I have now started on my new journey as a web developer.
+          Through my formal architectural education and professional experience, I developed the philosophy that “design” is solving problems without creating new ones. 
+          I believe this perspective will make me a great development engineer. 
         </p>
         <p>
-          When not attempting to satisfy my insatiable appetite for new and exciting skills, I can be found playing (endless) games of fetch with my dog Peanut Butter or enjoying the impeccable San Diego coastline. 
+          My work at an architecture and design firm quickly revealed that my favorite things about the job involved learning to use complex software programs and tools. 
+          I am able to methodically boil down often frustrating software quirks into digestible pieces and identify solutions. 
+          My tenacity and eagerness to learn made me the in-house, self taught software expert for the entire firm. My coworkers approached me for help not because I had the answer in hand, but because I was able to deduct the solutions on the fly. 
+          I have a foundational understanding of how to figure out what questions to ask, and therefore where to begin. 
+        </p>
+        <p>
+          The day I was introduced to web development was, unequivocally, a great day. 
+          I have often said the only thing I want to do is learn; and the realization that I could, quite literally, work in a field that would require me to be a “professional learner” catapulted me towards this career change, and has left me eager to apply my skills to this exciting, dynamic industry. 
         </p>
       </Col>
       </Row>
