@@ -64,7 +64,7 @@ code {
 
 .navbar-light .navbar-nav .nav-link.active {
   background-color: var(--primary);
-  border-radius: 10px;
+  border-radius: .25rem;
   color: white;
 }
 
